@@ -11,6 +11,12 @@ Program training includes machine learning, natural language processing, compute
 
 ## Responses
 
+### *Day 5 (February 12th, 2021): Introduction to Neural Networks*
+
+Code for the convolutional neural network built today is [here](https://github.com/natasharavinand/SureStart/tree/main/Introduction%20to%20Neural%20Networks).
+
+Today, we explored different components of neural networks, including concepts such as bias, activation functions, weights, densely connected layers, and epochs/batch-size. We explored how to create a convolutional neural network (CNN) that would use NLP techniques to classify news headlines from a Kaggle dataset as sarcastic or not sarcastic. 
+
 ### *Day 4 (February 11th, 2021): Introduction to Deep Learning*
 
 Deep learning is a subset of machine learning that uses deep learning algorithms to come up with important conclusions based on input data. Deep learning is usually unsupervised or semi-supervised. Some architectures of deep learning include convolutional neural networks, recurrent neural networks, generative adversarial networks, and recursive neural networks.
