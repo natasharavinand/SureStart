@@ -11,6 +11,13 @@ Program training includes machine learning, natural language processing, compute
 
 ## Responses
 
+### *Day 6 (February 15th, 2021): Introduction to Convolutional Neural Networks*
+
+Code for the convolutional neural network built today is [here](https://github.com/natasharavinand/SureStart/tree/main/Introduction%20to%20CNNs).
+
+Today, I learned more about convolutional neural networks and how they can classify images. I used the famous MNIST dataset to construct a neural network to classify handwritten digits with an accuracy of about 98.36% and a loss of 0.0549.
+
+
 ### *Day 5 (February 12th, 2021): Introduction to Neural Networks*
 
 Code for the convolutional neural network built today is [here](https://github.com/natasharavinand/SureStart/tree/main/Introduction%20to%20Neural%20Networks).
