@@ -11,12 +11,23 @@ Program training includes machine learning, natural language processing, compute
 
 ## Responses
 
+### *Day 7 (February 16th, 2021): Algorithmic Bias*
+
+Today focused on making participants cognizant of algorithmic bias in some AI-based software, the reasons for its occurrence, and its effects on real-world inequalities and biases. In addition, the programming was set up to help participants think critically about the dangers that society might face, if automated systems have biases.
+
+In the [Survival of the Best Fit](https://www.survivalofthebestfit.com/) interactive simulation, the player is walked through an example of how ML algorithms can perpetuate hiring biases. The simulation outlines the fact that ML models need large datasets that often include human biases in them. Thus, when the model is trained and deployed, it expressly learns those same biases. 
+
+One notable example of how AI bias can have real-world consequences is the COMPAS algorithm. The COMPAS algorithm was developed to predict the tendency of a convicted criminal to reoffend. The results for the algorithm portrayed black and white offenders differently, with white offenders more likely to be labeled as lower risk and displaying lower probabilities to reoffend. However, when news organizations compared the COMPAS results with the actual data, they found that this wasn't true. In developing ML algorithms, we must consider societal factors to make sure we are not developing biased systems that cause systemic harm.
+
+<hr>
+
 ### *Day 6 (February 15th, 2021): Introduction to Convolutional Neural Networks*
 
 Code for the convolutional neural network built today is [here](https://github.com/natasharavinand/SureStart/tree/main/Introduction%20to%20CNNs).
 
 Today, I learned more about convolutional neural networks and how they can classify images. I used the famous MNIST dataset to construct a neural network to classify handwritten digits with an accuracy of about 98.36% and a loss of 0.0549.
 
+<hr>
 
 ### *Day 5 (February 12th, 2021): Introduction to Neural Networks*
 
