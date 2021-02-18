@@ -11,6 +11,18 @@ Program training includes machine learning, natural language processing, compute
 
 ## Responses
 
+### *Day 8 (February 17th, 2021): Neural Network Layers*
+
+A convolutional neural network (CNN) is a neural network that is often used in computer vision or image recognition tasks. There are three main parts to a CNN:
+
+- A convolution mechanism that uses filters to convolve around an image to distinguish features
+- A pooling mechanism to reduce the dimensionality of the feature map without losing important information
+- A fully connected layer that flattens the output of the above and classifies the image
+
+Fully connected neural networks are different from fully connected layers in a CNN. In fully connected neural networks, all neurons connect to all neurons in the next layer. However, this architecture is inefficient for computer vision tasks, as images have an extremely large input (can have thousands of pixels). 
+
+In contrast, a convolutional neural networks creates a mechanism for analyzing each feature in an image in isolation, rather than all the pixel data. In the convolutional neural network, the fully conneted layer is the "last step" that takes the result from the convolutional and pooling process to reach a classification decision.
+
 ### *Day 7 (February 16th, 2021): Algorithmic Bias*
 
 Today focused on making participants cognizant of algorithmic bias in some AI-based software, the reasons for its occurrence, and its effects on real-world inequalities and biases. In addition, the programming was set up to help participants think critically about the dangers that society might face, if automated systems have biases.
