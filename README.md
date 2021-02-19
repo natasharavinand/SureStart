@@ -11,6 +11,18 @@ Program training includes machine learning, natural language processing, compute
 
 ## Responses
 
+### *Day 9 (February 18th, 2021): Classifying MNIST Digits with CNNs*
+
+Code for today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/Classify%20Digits%20With%20CNNs).
+
+Today, I primarily worked to improve my previous CNN model that classified MNIST digits with a CNN.
+
+I also clarified my understanding of model depth and width. Model depth can be interpreted as the number of hidden layers in a neural network. It can often improve model accuracy, but we have to be careful not to overfit.
+
+Model width can be interpreted as the number of nodes in each hidden layer. Although overfitting doesn't tend to be an issue with model width, we do have to be aware of training time, as a greater model width can lead to greater training times.
+
+<hr>
+
 ### *Day 8 (February 17th, 2021): Neural Network Layers*
 
 A convolutional neural network (CNN) is a neural network that is often used in computer vision or image recognition tasks. There are three main parts to a CNN:
@@ -22,6 +34,8 @@ A convolutional neural network (CNN) is a neural network that is often used in c
 Fully connected neural networks are different from fully connected layers in a CNN. In fully connected neural networks, all neurons connect to all neurons in the next layer. However, this architecture is inefficient for computer vision tasks, as images have an extremely large input (can have thousands of pixels). 
 
 In contrast, a convolutional neural networks creates a mechanism for analyzing each feature in an image in isolation, rather than all the pixel data. In the convolutional neural network, the fully conneted layer is the "last step" that takes the result from the convolutional and pooling process to reach a classification decision.
+
+<hr>
 
 ### *Day 7 (February 16th, 2021): Algorithmic Bias*
 
@@ -35,7 +49,7 @@ One notable example of how AI bias can have real-world consequences is the COMPA
 
 ### *Day 6 (February 15th, 2021): Introduction to Convolutional Neural Networks*
 
-Code for the convolutional neural network built today is [here](https://github.com/natasharavinand/SureStart/tree/main/Introduction%20to%20CNNs).
+Code for the convolutional neural network built today is [here](https://github.com/natasharavinand/SureStart/tree/main/Classify%20Digits%20With%20CNNs).
 
 Today, I learned more about convolutional neural networks and how they can classify images. I used the famous MNIST dataset to construct a neural network to classify handwritten digits with an accuracy of about 98.36% and a loss of 0.0549.
 
