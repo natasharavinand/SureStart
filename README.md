@@ -11,11 +11,27 @@ Program training includes machine learning, natural language processing, compute
 
 ## Responses
 
+### *Day 11 (February 22th, 2021): Ethics Driven ML Practice*
+
+Code for today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/Classify%20Facial%20Data%20With%20CNNs).
+
+Today, I learned about ethics-driven ML practice and how important it is to consider marginalized groups when conducting machine learning. I built a CNN that classified men and women, and noticed when reviewing my results that my model tended to incorrectly classify people of color a disproportionate amount. This reinforced my belief that staying vigilant about ethical software is crucial.
+
+<hr>
+
+### *Day 10 (February 19th, 2021): Image Classification with CNNs*
+
+Code for today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/Classify%20Animals%20with%20CNNs).
+
+Today, I used a previously built CNN model to build a classifier that classifies cats vs dogs.
+
+<hr>
+
 ### *Day 9 (February 18th, 2021): Classifying MNIST Digits with CNNs*
 
 Code for today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/Classify%20Digits%20With%20CNNs).
 
-Today, I primarily worked to improve my previous CNN model that classified MNIST digits with a CNN.
+Today, I primarily worked to improve my previous CNN model that classified MNIST digits.
 
 I also clarified my understanding of model depth and width. Model depth can be interpreted as the number of hidden layers in a neural network. It can often improve model accuracy, but we have to be careful not to overfit.
 
@@ -112,4 +128,4 @@ Today was an introduction to the Spring 2021 SureStart program, an initiative co
  - NLP and computer vision
 - Ethical AI development
 
-I hope to eventually apply my technical skills in roles that require an understanding of AI/ML techniques to make data-driven decisions. Some fields that especially interest me are civic/progressive tech, climate tech, and fintech.
+I hope to eventually apply my technical skills in roles that require an understanding of AI/ML techniques to make data-driven decisions. Some fields that especially interest me are fintech and health tech.
