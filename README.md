@@ -11,6 +11,85 @@ Program training includes machine learning, natural language processing, compute
 
 ## Responses
 
+### *Day 13 (February 24th, 2021): Predicting Home Prices and Loss Functions*
+
+Code for neural network I built today can be found [here](). Today, I built a CNN model to accurately predict house prices.
+
+Notes from [How to Choose Loss Functions When Training Deep Learning Neural Networks](https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/).
+
+**Deep learning neural networks**  are trained using the stochastic gradient descent optimization algorithm.
+
+As part of the optimization algorithm, the error for the current state of the model must be estimated repeatedly. This requires the choice of an error function, conventionally called a  **loss function**, that can be used to estimate the loss of the model so that the weights can be updated to reduce the loss on the next evaluation.
+
+Loss functions can often be divided into 3 categories: regression loss functions, binary classification loss functions, and multi-class classification loss functions.
+
+### Regression Loss Functions
+
+The **Mean Squared Error**, or MSE, loss is the default loss to use for regression problems. 
+
+There may be regression problems in which the target value has a spread of values and when predicting a large value, you may not want to punish a model as heavily as mean squared error. Instead, you can first calculate the natural logarithm of each of the predicted values, then calculate the mean squared error. This is called the **Mean Squared Logarithmic Error** loss, or MSLE for short. 
+
+On some regression problems, the distribution of the target variable may be mostly Gaussian, but may have outliers, e.g. large or small values far from the mean value. The **Mean Absolute Error**, or MAE, loss is an appropriate loss function in this case as it is more robust to outliers. It is calculated as the average of the absolute difference between the actual and predicted values.
+
+### Binary Classification Loss Functions
+
+Binary classification are those predictive modeling problems where examples are assigned one of two labels.
+
+**Cross-entropy** is the default loss function to use for binary classification problems. It is intended for use with binary classification where the target values are in the set {0, 1}.
+
+An alternative to cross-entropy for binary classification problems is the  **hinge loss function**, primarily developed for use with Support Vector Machine (SVM) models. It is intended for use with binary classification where the target values are in the set {-1, 1}. A popular extension is called the **squared hinge loss** that simply calculates the square of the score hinge loss.
+
+### Multi-Class Classification Loss Functions
+
+Multi-Class classification are those predictive modeling problems where examples are assigned one of more than two classes.
+
+**Cross entropy** is the default loss function to use for multi-class classification problems. In this case, it is intended for use with multi-class classification where the target values are in the set {0, 1, 3, …, n}, where each class is assigned a unique integer value. This will require a one-hot encoding process.
+
+A possible cause of frustration when using cross-entropy with classification problems with a large number of labels is the one hot encoding process. **Sparse cross-entropy** addresses this by performing the same cross-entropy calculation of error, without requiring that the target variable be one hot encoded prior to training.
+
+<hr>
+
+### *Day 12 (February 23th, 2021): Activation Functions*
+
+Notes from [How to Choose an Activation Function for Deep Learning](https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/).
+
+Activation functions are crucially important when designing a neural network architecture. A particular choice for an activation function in a hidden layer can control how well the model learns the training dataset, and a particular choice for an activation function in the output layer will control the kinds of predictions a model makes.
+
+A network may have three types of layers: input layers that take raw input from the domain,  **hidden layers**  that take input from another layer and pass output to another layer, and  **output layers**  that make a prediction. Most hidden layers will typically use the same activation function, while the output layer will typically have a different activation function and will depend on the goal of the prediction of the model.
+
+Activation functions are typically differentiable, which means the first-order derivative can be calculated for a given input value. This is crucial for backpropagation, the process in which the error of the model is minimized by updating weights of the model. 
+
+### Activation Functions for Hidden Layers
+
+The ReLU activation function is the most common function for hidden layers. It is common because it is simple to implement and overcomes the limitations of other popular activation functions such as sigmoid and tanh. Specifically, it tends to avoid the vanishing gradient problem,  where a deep multilayer feed-forward network or a recurrent neural network is unable to propagate useful gradient information from the output end of the model back to the layers near the input end of the model.
+
+A graph of the ReLU activation function:
+
+![ReLU activation function](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/Plot-of-Inputs-vs-Outputs-for-the-ReLU-Activation-Function..png)
+
+Other popular activation functions include the sigmoid as well as the tanh.
+
+Although ReLU is the most typically used activation function, your choice may depend on the type of neural network you're trying to build:
+
+-   **Multilayer Perceptron (MLP)**: ReLU activation function.
+-   **Convolutional Neural Network (CNN)**: ReLU activation function.
+-   **Recurrent Neural Network**: Tanh and/or Sigmoid activation function.
+
+### Activation Functions for Output Layers
+
+The output layer is the layer in a neural network model that directly outputs a prediction. The three most common activation functions for output layers are linear, logistic (sigmoid), and softmax.
+
+You must choose the activation function for your output layer based on the type of prediction problem that you are solving. For example, you may divide prediction problems into two main groups, predicting a categorical variable (_classification_) and predicting a numerical variable (_regression_).
+
+-   **Regression**: One node, linear activation.
+-    **Binary Classification**: One node, sigmoid activation.
+-   **Multiclass Classification**: One node per class, softmax activation.
+-   **Multilabel Classification**: One node per class, sigmoid activation.
+
+![enter image description here](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2020/12/How-to-Choose-an-Output-Layer-Activation-Function.png)
+ 
+<hr>
+
 ### *Day 11 (February 22th, 2021): Ethics Driven ML Practice*
 
 Code for today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/Classify%20Facial%20Data%20With%20CNNs).
