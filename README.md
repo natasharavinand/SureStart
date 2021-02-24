@@ -13,7 +13,7 @@ Program training includes machine learning, natural language processing, compute
 
 ### *Day 13 (February 24th, 2021): Predicting Home Prices and Loss Functions*
 
-Code for neural network I built today can be found [here](). Today, I built a CNN model to accurately predict house prices.
+Code for neural network I built today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/Predict%20House%20Price%20With%20CNNs). Today, I built a CNN model to accurately predict house prices.
 
 Notes from [How to Choose Loss Functions When Training Deep Learning Neural Networks](https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/).
 
