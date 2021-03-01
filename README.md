@@ -11,7 +11,19 @@ Program training includes machine learning, natural language processing, compute
 
 ## Responses
 
-### *Day 13 (February 24th, 2021): Predicting Home Prices and Loss Functions*
+### Day 19 (February 26th, 2021): Upsampling and Autoencoders
+
+Today, I learned about upsampling and autoencoders and some use cases for getting an input image back from downsampled numbers. An autoencoder is a neural network that learns representations of data in an unsupervised manner. It consists of an encoder, which learns a representation of input data, and a decoder which decompresses data to reconstruct the input.
+
+### *Day 18 (February 25th, 2021): Sentiment Analysis with Neural Networks and Regularization*
+
+Code for neural network I built today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/Sentiment%20Analysis%20With%20Neural%20Networks). 
+
+Today, I was acquainted with various regularization techniques to decrease overfitting in a neural network (ex. reduced capacity, L1/L2 regularization, and dropout). I built a neural network inspired by [this](https://towardsdatascience.com/handling-overfitting-in-deep-learning-models-c760ee047c6e#:~:text=Overfitting%20occurs%20when%20you%20achieve,are%20irrelevant%20in%20other%20data.&text=The%20best%20option%20is%20to%20get%20more%20training%20data) tutorial that classified Tweets based on their sentiment and dealt with overfitting by demonstrating the above techniques.
+
+
+
+### *Day 17 (February 24th, 2021): Predicting Home Prices and Loss Functions*
 
 Code for neural network I built today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/Predict%20House%20Price%20With%20CNNs). Today, I built a CNN model to accurately predict house prices.
 
@@ -49,7 +61,7 @@ A possible cause of frustration when using cross-entropy with classification pro
 
 <hr>
 
-### *Day 12 (February 23th, 2021): Activation Functions*
+### *Day 16 (February 23th, 2021): Activation Functions*
 
 Notes from [How to Choose an Activation Function for Deep Learning](https://machinelearningmastery.com/choose-an-activation-function-for-deep-learning/).
 
@@ -90,7 +102,7 @@ You must choose the activation function for your output layer based on the type 
  
 <hr>
 
-### *Day 11 (February 22th, 2021): Ethics Driven ML Practice*
+### *Day 15 (February 22th, 2021): Ethics Driven ML Practice*
 
 Code for today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/Classify%20Facial%20Data%20With%20CNNs).
 
@@ -98,7 +110,7 @@ Today, I learned about ethics-driven ML practice and how important it is to cons
 
 <hr>
 
-### *Day 10 (February 19th, 2021): Image Classification with CNNs*
+### *Day 12 (February 19th, 2021): Image Classification with CNNs*
 
 Code for today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/Classify%20Animals%20with%20CNNs).
 
@@ -106,7 +118,7 @@ Today, I used a previously built CNN model to build a classifier that classifies
 
 <hr>
 
-### *Day 9 (February 18th, 2021): Classifying MNIST Digits with CNNs*
+### *Day 11 (February 18th, 2021): Classifying MNIST Digits with CNNs*
 
 Code for today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/Classify%20Digits%20With%20CNNs).
 
@@ -118,7 +130,7 @@ Model width can be interpreted as the number of nodes in each hidden layer. Alth
 
 <hr>
 
-### *Day 8 (February 17th, 2021): Neural Network Layers*
+### *Day 10 (February 17th, 2021): Neural Network Layers*
 
 A convolutional neural network (CNN) is a neural network that is often used in computer vision or image recognition tasks. There are three main parts to a CNN:
 
@@ -132,7 +144,7 @@ In contrast, a convolutional neural networks creates a mechanism for analyzing e
 
 <hr>
 
-### *Day 7 (February 16th, 2021): Algorithmic Bias*
+### *Day 9 (February 16th, 2021): Algorithmic Bias*
 
 Today focused on making participants cognizant of algorithmic bias in some AI-based software, the reasons for its occurrence, and its effects on real-world inequalities and biases. In addition, the programming was set up to help participants think critically about the dangers that society might face, if automated systems have biases.
 
@@ -142,7 +154,7 @@ One notable example of how AI bias can have real-world consequences is the COMPA
 
 <hr>
 
-### *Day 6 (February 15th, 2021): Introduction to Convolutional Neural Networks*
+### *Day 8 (February 15th, 2021): Introduction to Convolutional Neural Networks*
 
 Code for the convolutional neural network built today is [here](https://github.com/natasharavinand/SureStart/tree/main/Classify%20Digits%20With%20CNNs).
 
