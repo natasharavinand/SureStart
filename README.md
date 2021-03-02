@@ -11,6 +11,13 @@ Program training includes machine learning, natural language processing, compute
 
 ## Responses
 
+### Day 22 (March 1st, 2021): Natural Language Processing
+
+Code for today can be found [here](https://github.com/natasharavinand/SureStart/tree/main/GT2%20NLP%20Neural%20Networks).
+
+Today focused on an introduction to natural language processing, an area of machine learning where computers are trained to understand human text. I modified the GT2 model released by OpenAI to configure a text generator.
+
+
 ### Day 19 (February 26th, 2021): Upsampling and Autoencoders
 
 Today, I learned about upsampling and autoencoders and some use cases for getting an input image back from downsampled numbers. An autoencoder is a neural network that learns representations of data in an unsupervised manner. It consists of an encoder, which learns a representation of input data, and a decoder which decompresses data to reconstruct the input.
